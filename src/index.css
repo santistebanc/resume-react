@@ -1,0 +1,19 @@
+body {
+  font-size: 11pt !important;
+	background: white;
+}
+
+#content {
+	width: auto;
+  margin: 0 5%;
+	padding: 0;
+	border: 0;
+	float: none !important;
+	color: black;
+	background: transparent;
+}
+
+div#content {
+	padding-top: 1em;
+  padding-bottom: 1em;
+}
