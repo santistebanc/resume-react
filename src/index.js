@@ -5,6 +5,6 @@ import 'semantic-ui-css/semantic.css';
 import './index.css';
 
 ReactDOM.render(
-  <App lang={1} />,
+  <App lang={0} />,
   document.getElementById('root')
 );

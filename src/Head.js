@@ -19,7 +19,7 @@ const Head = ({text, lang}) => <Grid>
           <Grid.Column floated='right' width={5}>
             <Segment>
               <Container textAlign='center'>
-              <div><Icon name="archive" size='large'/>
+              <div><Icon name="travel" size='large'/>
               <strong>{text.oport}</strong></div>
               <a>santistebanc.tk</a>
               </Container>

@@ -15,7 +15,7 @@ const content = {
   ,
   conceptsTitle: ['Familiar with Web Development concepts:','Familiarizado con conceptos de desarrollo web:']
   ,
-  conceptsList: [['asynchronicity','modularization and components','client-server interaction','API use and development','responsive design', 'testing','DOM Manipulation','hosting and deployment'], ['asíncronicidad','modularización y componentes','interacción cliente-servidor','uso y desarrollo de APIs','diseño responsivo', 'testing', 'manipulación DOM','hosting y deployment']]
+  conceptsList: [['asynchronicity','modularization and components','client-server interaction','API use and development','responsive design', 'testing','DOM Manipulation','hosting and deployment'], ['asincronicidad','modularización y componentes','interacción cliente-servidor','uso y desarrollo de APIs','diseño responsivo', 'testing', 'manipulación DOM','hosting y deployment']]
 }
 
 const SkillLabel = ({image, title}) => <Label basic image className='skillLabel' size='small'>
@@ -31,8 +31,8 @@ const Knowledge = ({text, lang}) => (
         <SkillLabel image={"./img/actionscript.png"} title={"Actionscript 3"}/>
         <SkillLabel image={"./img/node.png"} title={"node"}/>
         <SkillLabel image={"./img/git.png"} title={"git"}/>
-        <SkillLabel image={"./img/jquery.png"} title={"jquery"}/>
         <SkillLabel image={"./img/sass.svg"} title={"less / sass"}/>
+        <SkillLabel image={"./img/jquery.png"} title={"jquery"}/>
         <SkillLabel image={"./img/mysql.png"} title={"mySQL"}/>
         <SkillLabel image={"./img/mongodb.png"} title={"mongoDB"}/>
         <SkillLabel image={"./img/react.svg"} title={"React"}/>
