@@ -11,11 +11,11 @@ const content = {
   ],
   experienceTitle: ['Experienced with Web Development tools:','Experiencia con herramientas de desarrollo web:']
   ,
-  experienceList: [['Package Managers (npm)','Task Runners (Grunt, Gulp)','Compilers (Babel)','Bundlers (Webpack)','Code Quality (ESLint)','Version Control (Git)'],['Package Managers (npm)','Task Runners (Grunt, Gulp)','Compilers (Babel)','Bundlers (Webpack)','Code Quality (ESLint)','Version Control (Git)']]
+  experienceList: [['Package Managers (npm)','Task Runners (Grunt, Gulp)','Compilers (Babel)','Bundlers (Webpack)','Code Quality (ESLint)','Version Control (Git)',,'Utility Libraries (Underscore)','Templating (Handlebars)','CSS Frameworks (Bootstrap, Semantic UI)'],['Package Managers (npm)','Task Runners (Grunt, Gulp)','Compilers (Babel)','Bundlers (Webpack)','Code Quality (ESLint)','Version Control (Git)','Utility Libraries (Underscore)','Templating (Handlebars)','CSS Frameworks (Bootstrap, Semantic UI)']]
   ,
   conceptsTitle: ['Familiar with Web Development concepts:','Familiarizado con conceptos de desarrollo web:']
   ,
-  conceptsList: [['asynchronicity','modularization and components','client-server interaction','API use and development','responsive design','DOM Manipulation','hosting and deployment'], ['asíncronicidad','modularización y componentes','interacción cliente-servidor','uso y desarrollo de APIs','diseño responsivo','manipulación DOM','hosting y deployment']]
+  conceptsList: [['asynchronicity','modularization and components','client-server interaction','API use and development','responsive design', 'testing','DOM Manipulation','hosting and deployment'], ['asíncronicidad','modularización y componentes','interacción cliente-servidor','uso y desarrollo de APIs','diseño responsivo', 'testing', 'manipulación DOM','hosting y deployment']]
 }
 
 const SkillLabel = ({image, title}) => <Label basic image className='skillLabel' size='small'>

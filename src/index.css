@@ -5,7 +5,6 @@ body {
 
 #content {
 	width: auto;
-  margin: 0 5%;
 	padding: 0;
 	border: 0;
 	float: none !important;
@@ -16,6 +15,6 @@ body {
 div#content {
 	padding-top: 3em;
   padding-bottom: 2em;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 4em;
+  padding-right: 4em;
 }
