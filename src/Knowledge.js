@@ -1,7 +1,7 @@
 import React from 'react';
 import withLanguage from './withLanguage.js';
 
-import { Label, Container } from 'semantic-ui-react';
+import { Label, Container, List } from 'semantic-ui-react';
 
 const content = {
   studies: [
@@ -9,9 +9,13 @@ const content = {
     ,
     <span>Estudiante de 10° Semestre de <i>Ingeniería en Tecnologías de Información y Comunicación</i> en el <strong className="blue">Tecnológico de Monterrey</strong> (Graduación Mayo 2017)</span>
   ],
-  knowledge: ['Knowledge','Conocimiento'],
-  projects: ['Projects','Proyectos'],
-  experience: ['Education and Professional Experience', 'Estudios y Experiencia Profesional']
+  experienceTitle: ['Experienced with Web Development tools:','Experiencia con herramientas de desarrollo web:']
+  ,
+  experienceList: [['Package Managers (npm)','Task Runners (Grunt, Gulp)','Compilers (Babel)','Bundlers (Webpack)','Code Quality (ESLint)','Version Control (Git)'],['Package Managers (npm)','Task Runners (Grunt, Gulp)','Compilers (Babel)','Bundlers (Webpack)','Code Quality (ESLint)','Version Control (Git)']]
+  ,
+  conceptsTitle: ['Familiar with Web Development concepts:','Familiarizado con conceptos de desarrollo web:']
+  ,
+  conceptsList: [['asynchronicity','modularization and components','client-server interaction','API use and development','responsive design','DOM Manipulation','hosting and deployment'], ['asíncronicidad','modularización y componentes','interacción cliente-servidor','uso y desarrollo de APIs','diseño responsivo','manipulación DOM','hosting y deployment']]
 }
 
 const SkillLabel = ({image, title}) => <Label basic image className='skillLabel' size='small'>
@@ -32,18 +36,20 @@ const Knowledge = ({text, lang}) => (
         <SkillLabel image={"./img/mysql.png"} title={"mySQL"}/>
         <SkillLabel image={"./img/mongodb.png"} title={"mongoDB"}/>
         <SkillLabel image={"./img/react.svg"} title={"React"}/>
+        <SkillLabel image={"./img/d3.png"} title={"D3"}/>
         <SkillLabel image={"./img/meteor.svg"} title={"Meteor"}/>
         <SkillLabel image={"./img/phaser.png"} title={"Phaser"}/>
         <SkillLabel image={"./img/unity.png"} title={"Unity"}/>
         <SkillLabel image={"./img/office.png"} title={"MS Office"}/>
-        <br/>
-        <ul>
-          <li>Asincronicidad, modularización (paquetes: import y export), control de versiones (git), interacción cliente-servidor, seguridad web, documentación.
-          </li>
-          <li>
-          Programación orientada a objetos, estructuras de datos, bases de datos, redes, servidores, sistemas operativos, seguridad informática, cloud computing
-          </li>
-        </ul>
+        <br/><br/>
+        <List bulleted horizontal>
+          <List.Item><List.Description>{text.experienceTitle}</List.Description></List.Item>
+          {text.experienceList.map(item=><List.Item>{item}</List.Item>)}
+        </List><br/><br/>
+        <List bulleted horizontal>
+          <List.Item><List.Description>{text.conceptsTitle}</List.Description></List.Item>
+            {text.conceptsList.map(item=><List.Item>{item}</List.Item>)}
+        </List>
       </Container>
     );
 

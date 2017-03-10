@@ -23,7 +23,7 @@ const App = ({text, lang}) => (
         <Profile {...{lang}}/>
         <Divider horizontal><h4><Icon name='lab'/>{text.knowledge}</h4></Divider>
         <Knowledge {...{lang}}/>
-        <Divider horizontal><h4><Icon name='travel'/>{text.projects}</h4></Divider>
+        {/* <Divider horizontal><h4><Icon name='travel'/>{text.projects}</h4></Divider> */}
         <Divider horizontal><h4><Icon name='student'/>{text.experience}</h4></Divider>
         <Experience {...{lang}}/>
       </Container>
