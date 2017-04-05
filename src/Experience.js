@@ -6,9 +6,9 @@ import { Table, Container, Label } from 'semantic-ui-react';
 
 const content = {
   now: ['Now', 'Ahora'],
-  studies: [<span className="black">Student in 10th Semester of <i>Informatics Engineering</i> at <strong className="blue">Tecnológico de Monterrey</strong> (Graduation May 2017)<p className="jobdesc">Object Oriented Programming, Data Structures, Databases, Networks, Servers, Operating Systems, IT Security, Cloud Computing</p></span>
+  studies: [<span className="black">Student in 10th Semester of <i>Informatics Engineering</i> at <strong className="blue">Tecnológico de Monterrey</strong> (Graduation May 2017) in SLP, Mexico.<p className="jobdesc">Object Oriented Programming, Data Structures, Databases, Networks, Servers, Operating Systems, IT Security, Cloud Computing</p></span>
   ,
-  <span className="black">Estudiante de 10° Semestre de <i>Ingeniería en Tecnologías de Información y Comunicación</i> en el <strong className="blue">Tecnológico de Monterrey</strong> (Graduación Mayo 2017)<p className="jobdesc">Programación orientada a objetos, estructuras de datos, bases de datos, redes, servidores, sistemas operativos, seguridad informática, cloud computing</p></span>
+  <span className="black">Estudiante de 10° Semestre de <i>Ingeniería en Tecnologías de Información y Comunicación</i> en el <strong className="blue">Tecnológico de Monterrey</strong> (Graduación Mayo 2017) en SLP, México.<p className="jobdesc">Programación orientada a objetos, estructuras de datos, bases de datos, redes, servidores, sistemas operativos, seguridad informática, cloud computing</p></span>
 ],
   mls: [<span className="black">Internship at software development start-up company <strong className="blue">Market Logic Software</strong> in Berlin<p className="jobdesc">Development of UI Components in <i>React.js</i> including graphs and charts with <i>D3.js</i> and dynamic widgets.</p></span>
   ,
@@ -18,7 +18,7 @@ const content = {
   ,
   <span className="black">Semestre de estudios de intercambio en Alemania en la universidad <strong className="blue">Hochschule Furtwangen</strong> con beca de DAAD</span>
 ],
-  aisa: [<span className="black">Internship at <strong className="blue">AISA</strong>, Development of management system for government agency of public property registry (<i>Registro Público de la Propiedad</i>)<p className="jobdesc">Was in charge of designing and programming the UI Forms and Controls in a using <i>Windows Presentation Foundation</i> framework in C# and a large SQL database.</p></span>
+  aisa: [<span className="black">Internship at <strong className="blue">AISA</strong>, Development of management system for government agency of public property registry <i>(Registro Público de la Propiedad)</i><p className="jobdesc">Was in charge of designing and programming the UI Forms and Controls using <i>Windows Presentation Foundation</i> framework in C# and a large SQL database.</p></span>
   ,
   <span className="black">Práctica profesional en <strong className="blue">AISA</strong>, proyecto de desarrollo de sistema de gestión para el <i>Registro Público de la Propiedad</i><p className="jobdesc">Encargado de diseñar y programar las formas de la interfaz de usuario y controles utilizando <i>Windows Presentation Foundation</i> en C# y una base de datos en SQL</p></span>
 ]

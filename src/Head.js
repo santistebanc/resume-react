@@ -4,7 +4,8 @@ import withLanguage from './withLanguage.js';
 import { Container, Grid, Segment, Icon } from 'semantic-ui-react';
 
 const content = {
-  oport: ['Online Portfolio:','Portfolio en linea:']
+  oport: ['Online Portfolio:','Portfolio en linea:'],
+  personal: ["23-year-old Mexican/Spanish (full European citizenship)","Mexicano/Español de 23 años (ciudadano de la Union Europea)"]
 }
 
 const Head = ({text, lang}) => <Grid>
@@ -14,6 +15,8 @@ const Head = ({text, lang}) => <Grid>
               <Icon name="mail"/> <a>carlos.santisteban@outlook.com</a>
               <br/>
               <Icon name="call"/> +52 444 414 83 22
+              <br/>
+              <Icon name="birthday"/><span className="personaldata">{text.personal}</span>
             </address>
           </Grid.Column>
           <Grid.Column floated='right' width={5}>
