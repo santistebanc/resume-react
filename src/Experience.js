@@ -6,9 +6,9 @@ import { Table, Container, Label } from 'semantic-ui-react';
 
 const content = {
   now: ['Now', 'Ahora'],
-  studies: [<span className="black">Student in 10th Semester of <i>Informatics Engineering</i> at <strong className="blue">Tecnológico de Monterrey</strong> (Graduation May 2017) in SLP, Mexico.<p className="jobdesc">Object Oriented Programming, Data Structures, Databases, Networks, Servers, Operating Systems, IT Security, Cloud Computing</p></span>
+  studies: [<span className="black">Bachelor's Degree in <i>Informatics Engineering</i> at <strong className="blue">Tecnológico de Monterrey</strong> in SLP, Mexico.<p className="jobdesc">Object Oriented Programming, Software Architecture, Data Structures, Databases, Networks, Servers, Operating Systems, IT Security, Cloud Computing</p></span>
   ,
-  <span className="black">Estudiante de 10° Semestre de <i>Ingeniería en Tecnologías de Información y Comunicación</i> en el <strong className="blue">Tecnológico de Monterrey</strong> (Graduación Mayo 2017) en SLP, México.<p className="jobdesc">Programación orientada a objetos, estructuras de datos, bases de datos, redes, servidores, sistemas operativos, seguridad informática, cloud computing</p></span>
+  <span className="black">Título de licenciatura en <i>Ingeniería en Tecnologías de Información y Comunicación</i> del <strong className="blue">Tecnológico de Monterrey</strong> en SLP, México.<p className="jobdesc">Programación orientada a objetos, arquitectura de software, estructuras de datos, bases de datos, redes, servidores, sistemas operativos, seguridad informática, cloud computing</p></span>
 ],
   mls: [<span className="black">Internship at software development start-up company <strong className="blue">Market Logic Software</strong> in Berlin<p className="jobdesc">Development of UI Components in <i>React.js</i> including graphs and charts with <i>D3.js</i> and dynamic widgets.</p></span>
   ,

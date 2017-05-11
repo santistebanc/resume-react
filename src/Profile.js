@@ -12,13 +12,13 @@ const content = {
   ,
   <span>Desarrollador Web con enfoque en <strong className="green">Front-End</strong></span>
   ],
-  hybrid: [<span>Experienced in design and programming of <strong>hybrid applications</strong> (web and mobile)</span>
+  areas: [<span>Experience building Web Apps including <strong>hybrid applications</strong> (web and mobile) and <strong>2D/3D videogames</strong></span>
   ,
-  <span>Experiencia en diseño y programación de <strong>aplicaciones híbridas</strong> (web y mobile)</span>
+  <span>Experiencia creando aplicaciones web incluyendo <strong>aplicaciones híbridas</strong> (web y mobile) y <strong>videojuegos 2D/3D</strong></span>
   ],
-  videogames: [<span>Experienced in development of  <strong>2D and 3D videogames</strong></span>
+  experience: [<span><strong>5+ years</strong> doing Web Development projects and <strong>~1 year</strong> of Professional Experience</span>
   ,
-  <span>Experiencia en desarrollo de <strong>videojuegos 2D y 3D</strong></span>
+  <span><strong>5+ años</strong> realizando proyectos de Desarrollo Web y <strong>~1 año</strong> de Experiencia Profesional</span>
   ],
   languages: [<span>Languages:
     <LanguageLabel icon='es' title='Spanish' desc='native'/>
@@ -42,20 +42,20 @@ const Profile = ({text, lang}) => <List>
     </List.Item>
     <List.Item>
       <Icon name='right triangle' />
-      <List.Content>{text.hybrid}</List.Content>
+      <List.Content>{text.experience}</List.Content>
     </List.Item>
     <List.Item>
       <Icon name='right triangle' />
-      <List.Content>{text.videogames}</List.Content>
+      <List.Content>{text.areas}</List.Content>
     </List.Item>
     <List.Item>
       <Icon name='right triangle' />
       <List.Content>{text.languages}</List.Content>
     </List.Item>
-    <List.Item>
+    {/*<List.Item>
       <Icon name='right triangle' />
       <List.Content>{text.qualities}</List.Content>
-    </List.Item>
+    </List.Item>*/}
   </List>
 
 export default withLanguage(Profile, content);

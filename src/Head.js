@@ -9,14 +9,14 @@ const content = {
 }
 
 const Head = ({text, lang}) => <Grid>
-          <Grid.Column floated='left' width={10}>
+          <Grid.Column floated='left' width={11}>
             <h2>Carlos Santisteban Pozas</h2>
             <address>
               <Icon name="mail"/> <a>carlos.santisteban@outlook.com</a>
               <br/>
               <Icon name="call"/> +52 444 414 83 22
               <br/>
-              <Icon name="birthday"/><span className="personaldata">{text.personal}</span>
+              <Icon name="birthday"/> <span className="personaldata">{text.personal}</span>
             </address>
           </Grid.Column>
           <Grid.Column floated='right' width={5}>
@@ -24,7 +24,7 @@ const Head = ({text, lang}) => <Grid>
               <Container textAlign='center'>
               <div><Icon name="travel" size='large'/>
               <strong>{text.oport}</strong></div>
-              <a>santistebanc.tk</a>
+              <a href="http://santistebanc.tk">santistebanc.tk</a>
               </Container>
             </Segment>
           </Grid.Column>
